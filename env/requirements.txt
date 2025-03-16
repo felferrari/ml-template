@@ -1,1 +1,13 @@
-
+numpy
+geopandas
+scikit-learn
+scikit-image==0.21
+torch
+torchvision
+torchmetrics
+lightning
+einops
+seaborn
+streamlit
+rich
+click
