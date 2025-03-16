@@ -7,6 +7,3 @@ dependencies:
   - console_shortcut
   - notebook
   - pip
-  - pip:
-    - numpy
-    - mlflow
