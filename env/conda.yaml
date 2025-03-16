@@ -6,4 +6,6 @@ dependencies:
   - python=3.11
   - console_shortcut
   - notebook
-  - click
+  - pip
+  - pip:
+    - numpy
