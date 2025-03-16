@@ -1,3 +1,4 @@
+# Example from MLFlow Projects docs
 name: My Project
 
 python_env: env/python_env.yaml
