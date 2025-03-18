@@ -1,7 +1,7 @@
 # Example from MLFlow Projects docs
 name: My Project
 
-python_env: env/python_env.yaml
+conda_env: env/conda.yaml
 # or
 # conda_env: my_env.yaml
 # or
@@ -9,12 +9,7 @@ python_env: env/python_env.yaml
 #    image:  mlflow-docker-example
 
 entry_points:
-  main:
-    parameters:
-      data_file: path
-      regularization: { type: float, default: 0.1 }
-    command: "python train.py -r {regularization} {data_file}"
-  validate:
-    parameters:
-      data_file: path
-    command: "python validate.py {data_file}"
+  download:
+    #parameters:
+      #experiment: string
+    command: "python download_data.py"
