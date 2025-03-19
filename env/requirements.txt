@@ -12,3 +12,5 @@ seaborn
 streamlit
 rich
 click
+gdown
+omegaconf
